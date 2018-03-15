@@ -28,7 +28,7 @@ render() {
     
     return (
     <div>
-    <li key="props">
+    <li key={index}>
       <img src={artist.imgUrl} alt={artist.artistName}/>      
       <p>{artist.artistName}</p>
     </li>
